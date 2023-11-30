@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+# Ignorar carpetas generadas por Composer
+/vendor
+
+# Ignorar carpetas generadas por npm o Yarn
+/node_modules
+
+# Ignorar el archivo de configuración de entorno
+.env
+
+# Ignorar archivos de logs generados por Laravel
+*.log
